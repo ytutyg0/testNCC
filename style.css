@@ -1,0 +1,87 @@
+body {
+  font-family: "Roboto";
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+.side_bar {
+  min-width: 150px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.item_bar {
+  color: #aaaaaa;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  border-bottom: 1px solid #5c5c5c;
+  padding: 14px 0 11px 16px;
+  text-decoration: none;
+}
+.item_bar:hover {
+  color: white;
+  background-color: #5c5c5c;
+}
+.page_content {
+  margin: 0 129px;
+  width: 1768px;
+}
+.logo {
+  margin: 20px 0 30px 0;
+}
+.title_description {
+  background: #efefef;
+  display: flex;
+  flex-direction: column;
+  padding: 38px 269px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 21px;
+}
+.text_title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 18px;
+}
+.description {
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.main_content {
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.item_content {
+  display: flex;
+  flex-direction: column;
+}
+.mid_content {
+  display: flex;
+}
+.img_icon {
+  margin: 0 16px 6px 0;
+}
+.footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3e3e3e;
+  padding: 30px 0 30px 129px;
+  border-top: 1px solid #dedede;
+  margin-top: 183px;
+}
